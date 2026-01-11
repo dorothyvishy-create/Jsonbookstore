@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JSON Bookstore</title>
+</head>
+<body onload="displayBooks()">
+
+  <h1>Book Store</h1>
+
+  <table id="bookTable" border="1">
+    <tr>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Year</th>
+      <th>Genre</th>
+    </tr>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
