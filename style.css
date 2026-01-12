@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+
+header{
+    border-bottom: 3px solid #c8c8c8;
+    padding: 30px;
+}  
+header h2{
+    text-align: center;
+    font-size: 2em;
+    
+}
+.card {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+h4{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.t{
+    border: 1px solid blue;
+}
+.footer-innder{
+    width: 100%;
+}
+.header-inner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+.card-header img {
+    width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+}
+.card-body {
+    padding: 1rem;
+}
+.card-body h4 {
+    margin: 0 0 0.5rem;
+    font-size: 1.8rem;
+    color: #333;
+}
+.card-body p {
+    font-size: 0.9rem;
+    font-family: 'Inter', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+    color: #555;
+    line-height: 1.4;
+}
+.card-footer {
+    padding: 1rem;
+    text-align: start ;
+    border-top: 1px solid #eee;
+}
+
+.card-footer button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+    width: 45%;
+}
+
+.card-footer button:hover {
+    background-color: #0056b3;
+}
+.site-footer {
+    background-color: #1a1a1a;
+    color: #ccc;
+    padding: 2rem ;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 2rem;
+}
+
+.footer-section {
+    flex: 1 1 250px;
+}
+
+.footer-section h3 {
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.footer-section p,
+.footer-section a {
+    font-size: 0.9rem;
+    color: #aaa;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #fff;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: 0.8rem;
+    border-top: 1px solid #333;
+    color: #777;
+}
